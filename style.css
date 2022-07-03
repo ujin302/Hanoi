@@ -1,0 +1,64 @@
+/* .parent{
+
+    bottom: 0;
+    width: 2000px;
+    height: 1000px;
+    margin: 10px auto;
+} */
+body{
+  /* margin: 0 auto; */
+  margin: 20px 0 0 150px;
+  padding: 0;
+}
+
+/* .grab{
+  top: -270px;
+ } */
+.columns{
+  border: 1px solid red;
+  margin: 40px 0 0 20px;
+  display: inline-block;
+  width: 290px;
+  height: 280px;
+  background-color: rgba(51, 204, 255, .0);
+  border-radius: 20px;
+  text-align: center;
+  overflow: hidden;
+  transition: background-color 0.5s;
+  -webkit-transition: background-color 0.5s;
+  -moz-transition: background-color 0.5s;
+}
+
+.columns:hover{ background: LightPink}
+
+.poles{
+  position: relative;
+  left: 140px;
+  top: 100px;
+  margin: 0;
+  width: 10px;
+  height: 300px;
+  background-color: gray;
+}
+
+.diskHolder{
+  display: inline-block;
+  position: relative;
+  top: -186px;
+  margin: -4px;
+  width: 250px;
+  height: 25px;
+  text-align: center;
+}
+
+.disks{
+  display: inline-block;
+  height: 25px;
+  background-color: black;
+}
+
+p { 
+  width: 300px; /* 정렬하려는 요소의 넓이를 반드시 지정 */
+  /* margin: 0 auto; */
+  margin: 10px 0 0 430px;
+}
